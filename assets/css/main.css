@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #000;
   font-size: 15px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -586,7 +586,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse {
-  background: #fff;
+  background: #000;
   z-index: 999999;
   top: 0px !important;
   min-height: 58px;
@@ -606,7 +606,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
-  color: #212121 !important;
+  color: #000 !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
@@ -804,7 +804,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .bg-inverse {
-    background: #fff !important;
+    background: #000 !important;
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   }
   .navbar-expand-lg .navbar-brand, .navbar-expand-lg .navbar-toggler {
@@ -823,7 +823,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 @media (max-width: 991px) {
   .bg-inverse {
-    background: #fff !important;
+    background: #000 !important;
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   }
   .navbar-expand-lg .navbar-brand, .navbar-expand-lg .navbar-toggler {
@@ -1878,7 +1878,7 @@ h1 {
 .container-form .form-wrapper {
   background-color: white;
   padding: 56px;
-  box-shadow: 0 8px 24px #E2E8ED;
+  box-shadow: 0 2px 6px #E2E8ED;
 }
 
 .container-form .form-wrapper .form-group {
